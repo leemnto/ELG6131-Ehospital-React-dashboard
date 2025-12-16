@@ -19,17 +19,17 @@ It does **not** include backend services, authentication mechanisms, or persiste
 - TypeScript
 
 ### UI & Styling
-- Tailwind CSS
-- shadcn/ui (New York style)
-- Radix UI
-- Lucide Icons
+- Tailwind CSS  
+- shadcn/ui (New York style)  
+- Radix UI  
+- Lucide Icons  
 
 ### State Management & Forms
-- React Hook Form
+- React Hook Form  
 - Zod (schema validation)
 
 ### Charts & Visualization
-- Recharts
+- Recharts  
 - d3 (scale, shape, format)
 
 ### Theme Support
@@ -53,7 +53,6 @@ It does **not** include backend services, authentication mechanisms, or persiste
 ├── package.json
 └── pnpm-lock.yaml
 Architectural Notes
-
 No backend APIs are hard-coded
 
 No database or persistence layer is included
@@ -64,12 +63,13 @@ Suitable for use as a micro-frontend or frontend submodule
 
 Getting Started
 Prerequisites
-
 Node.js 18 or higher
 
 pnpm (recommended) or npm
 
 Install Dependencies
+bash
+复制代码
 pnpm install
 or
 
@@ -86,8 +86,6 @@ arduino
 复制代码
 http://localhost:3000
 Integration Guide
-This project is intended to be integrated into a broader e-hospital system using one of the following approaches.
-
 Option 1: Micro-Frontend Integration
 Use this repository as an independent frontend module
 
@@ -135,16 +133,12 @@ Suitable for internal systems
 Avoids constraints related to Next.js image optimization
 
 Path Aliases
-The following path aliases are defined (via components.json):
-
 ts
 复制代码
 @/components
 @/components/ui
 @/hooks
 @/lib
-These aliases improve readability and simplify integration into monorepos or large codebases.
-
 Scope & Limitations
 Included
 Frontend layouts and page structure
@@ -166,8 +160,6 @@ Database or persistent storage
 
 Production deployment configuration
 
-Backend logic and authentication are expected to be handled by the host system.
-
 Intended Use Cases
 Frontend feature module within an e-hospital system
 
@@ -181,3 +173,5 @@ Frontend-only implementation
 No sensitive data or credentials included
 
 Designed for extensibility and system integration
+
+复制代码
