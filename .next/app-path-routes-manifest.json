@@ -1,0 +1,9 @@
+{
+  "/(routes)/analyst/page": "/analyst",
+  "/(routes)/clinical_staff/page": "/clinical_staff",
+  "/(routes)/doctor/page": "/doctor",
+  "/(routes)/patient/page": "/patient",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/page": "/"
+}

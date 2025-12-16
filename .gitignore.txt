@@ -1,0 +1,12 @@
+# 忽略 node_modules 文件夹
+node_modules/
+
+# 忽略操作系统生成的文件（如 Mac 的 .DS_Store）
+.DS_Store
+
+# 忽略 IDE 的配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log

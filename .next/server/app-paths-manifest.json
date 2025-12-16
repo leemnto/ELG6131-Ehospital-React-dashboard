@@ -1,0 +1,9 @@
+{
+  "/(routes)/analyst/page": "app/(routes)/analyst/page.js",
+  "/(routes)/clinical_staff/page": "app/(routes)/clinical_staff/page.js",
+  "/(routes)/doctor/page": "app/(routes)/doctor/page.js",
+  "/(routes)/patient/page": "app/(routes)/patient/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
+}
